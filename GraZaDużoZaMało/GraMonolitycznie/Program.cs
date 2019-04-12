@@ -59,12 +59,22 @@ namespace GraMonolitycznie
 
                 #region 3. Komputer ocenia propozycje
                 if (propozycja < wylosowana)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Za mało");
+                    Console.ResetColor();
+                }
                 else if (propozycja > wylosowana)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Za dużo");
+                    Console.ResetColor();
+                }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Trafiono");
+                    Console.ResetColor();
                     trafiono = true;
                 }
 
