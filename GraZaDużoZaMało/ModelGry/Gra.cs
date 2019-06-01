@@ -2,7 +2,7 @@
 
 namespace ModelGry
 {
-    public class Gra
+    public partial class Gra
     {
         // typy
         public enum Odp { ZaMalo = -1, Trafiono = 0, ZaDuzo = +1 };
