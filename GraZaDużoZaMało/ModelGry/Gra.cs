@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ModelGry
 {
@@ -22,6 +23,7 @@ namespace ModelGry
             ZakresDo = max;
             wylosowana = Losuj(ZakresOd, ZakresDo);
             Stan = StanGry.Trwa;
+            Historia = new List<Ruch>();
         }
         private int Losuj(int min = 1, int max = 100)
         {
@@ -33,15 +35,18 @@ namespace ModelGry
         public Odp Ocena(int propozycja)
         {
             LicznikRuchow++;
+            Odp odp;
             if (propozycja < wylosowana)
-                return Odp.ZaMalo;
+                odp = Odp.ZaMalo;
             else if (propozycja > wylosowana)
-                return Odp.ZaDuzo;
+                odp = Odp.ZaDuzo;
             else // ==
             {
                 Stan = StanGry.Odgadnieta;
-                return Odp.Trafiono;
+                odp = Odp.Trafiono;
             }
+            Historia.Add(new Ruch(propozycja, odp));
+            return odp;
         }
 
         public void Poddaj()

@@ -17,6 +17,11 @@ namespace ConsoleAppTestModelGry
             Console.WriteLine(g.Ocena(propozycja: 7));
             //g.LicznikRuchow = -1;
             Console.WriteLine(g.LicznikRuchow);
+            //historia gry
+            foreach( var ruch in g.Historia)
+            {
+                Console.WriteLine(ruch);
+            }
         }
     }
 }
