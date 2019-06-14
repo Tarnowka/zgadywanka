@@ -1,30 +1,32 @@
-# zgadywanka
-Projekt gry realizowany na zajęciach 
+# zgadywanka-lab6n
+Projekt gry realizowany na zajęciach WdP Lab6-nstac
 
 ## Nagłówek poziomu 1
 
-## Nagłówek poziomu 2
+## nagłówek poziomu 2
 
-## Nogłówek poziomu 2.1
+### nagłówek poziomu 2.1
 
-bdassbahdbsadjikkjm asjli jm asjd ilksmjdskai sadkjimjkisjamja kjdisalkj
-asdddddddkjn kjaaaaaaaaanf 
+oj fljsd lfjsa;jf ;sajf; saf ;lsajfd ;ljsadf jsa;l jf;sajf;ajs;f jsad; f;dsaf ;saj;f s;fd djsa a
+la jdfljdsaf jsaljfd lsj fldsalf jsldjf lsjd flj ds
+ljdsf jdsl flsdjfl jsdfl dsl fls j
 
-hnjdsauhsuainkjmn d mjp;asmkdp;ok
-djsauihdowuhfpejfo feesw
+sadlf jldsajf ljdsalfjds ljldsf jldsaj fl jsadlf jldsa j
+lsa jfdljsadlfj lsajdfl asl jflsajdljf lsajdf 
 
-Metoda `console.writeline()` bla bla bla
+Metdoda `Console.WriteLine()` bla ba bla
 
 ```csharp
 int x = 1;
 x = x + 2;
-console.writeline(x);
+Conosole.WriteLine(x);
 ```
 
-Rzuć okiem na stronę [tekst](http://e.wsei.edu.pl) aby cośtam...
+Rzuć okiem na stronę [tekst](http://e.wsei.edu.pl) aby cośtam ....
 
 
 | xxx | yyy |
 |-----|-----|
 | 1 | 2 |
-| 3 | 4 |
+| a | b |
+
